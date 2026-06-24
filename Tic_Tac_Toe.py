@@ -8,23 +8,23 @@ def clear_screen():
 c=True
 while c:
     L=[[" "," "," "], [" "," "," "], [" "," "," "]]
-    i=input("Player 1 enter choice X or O:")
+    i=input("Player 1 enter choice X or O: ")
     i=i.upper()
     j=""
     if i=="X":
         j="O"
     else:
         j="X"
-    ht=int(input("Player 1 enter 1 for Heads and 2 for Tails:"))
+    ht=int(input("Player 1 enter 1 for Heads and 2 for Tails: "))
     r=random.randint(1,2)
     b=False
     if ht==r:
-        a=input("Enter Player 1 name:")
-        k=input("Enter Player 2 name:")
+        a=input("Enter Player 1 name: ")
+        k=input("Enter Player 2 name: ")
         b=True
     else:
-        a=input("Enter Player 2 name:")
-        k=input("Enter Player 1 name:")
+        a=input("Enter Player 2 name: ")
+        k=input("Enter Player 1 name: ")
     print(L)
     D={1:[0,0],2:[0,1],3:[0,2],4:[1,0],5:[1,1],6:[1,2],7:[2,0],8:[2,1],9:[2,2]}
     if b==True:
