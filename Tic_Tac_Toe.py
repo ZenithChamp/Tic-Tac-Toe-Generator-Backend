@@ -54,7 +54,7 @@ while c:
                 print(k," won")
                 break
             while True:
-                d=int(input(a," enter integer location of where u want ur symbol placed"))
+                d=int(input("Enter integer location of where u want ur symbol placed: "))
                 if L[D[d][0]][D[d][1]]==" ":
                     clear_screen()
                     L[D[d][0]][D[d][1]]=i
@@ -90,7 +90,7 @@ while c:
                 print("IT'S A DRAW!!")
                 break
             while True:
-                d=int(input(k," enter integer location of where u want ur symbol placed"))
+                d=int(input("Enter integer location of where u want ur symbol placed: "))
                 if L[D[d][0]][D[d][1]]==" ":
                     clear_screen()
                     L[D[d][0]][D[d][1]]=j
@@ -125,7 +125,7 @@ while c:
                 print(k," won")
                 break
             while True:
-                d=int(input(a," enter integer location of where u want ur symbol placed"))
+                d=int(input("Enter integer location of where u want ur symbol placed: "))
                 if L[D[d][0]][D[d][1]]==" ":
                     clear_screen()
                     L[D[d][0]][D[d][1]]=j
@@ -161,7 +161,7 @@ while c:
                 print("IT'S A DRAW!!")
                 break
             while True:
-                d=int(input(k," enter integer location of where u want ur symbol placed"))
+                d=int(input("Enter integer location of where u want ur symbol placed: "))
                 if L[D[d][0]][D[d][1]]==" ":
                     clear_screen()
                     L[D[d][0]][D[d][1]]=i
